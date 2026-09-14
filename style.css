@@ -267,7 +267,12 @@ footer {
   text-decoration: none;
   font-weight: 500;
 }
-
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
 @media (max-width: 768px) {
 
   /* MOBILE NAVIGATION */
@@ -278,7 +283,9 @@ footer {
     align-items: center;
     padding: 12px 15px;
   }
-
+ .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
   .nav-links ul {
     display: flex;
     flex-direction: row;
@@ -311,12 +318,6 @@ footer {
   #contact .contact-item { text-align: right; }
   #services .card { text-align: left; }
   #about p { text-align: left; }
-}
-
-  /* GALLERY */
-  .gallery-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
 
 
