@@ -25,7 +25,10 @@ body {
   font-weight: 700;
   color: #c00;
 }
-
+.sabre-white {
+  filter: brightness(0) invert(1);
+  height: 120px; /* adjust size */
+}
 
 /* Navigation links */
 .nav-links ul {
