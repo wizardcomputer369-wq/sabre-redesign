@@ -186,6 +186,13 @@ footer {
     background-position: center;  /* keep image centered */
     padding: 60px 20px;           /* keeps text centered */
   }
+      .sabre-white {
+    height: 80px;
+  }
+
+  .hero-title-text {
+    font-size: 1.4rem;
+  }
 }
 
   .contact-item {
@@ -306,17 +313,13 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 12px;
+  gap: 14px;
   margin-bottom: 20px;
-}
-
-.hero-title-logo {
-  height: 120px;      /* adjust size if needed */
 }
 
 .hero-title-text {
   font-size: 2rem;
   font-weight: 600;
-  color: #000;
+  color: #fff;
   white-space: nowrap;
 }
