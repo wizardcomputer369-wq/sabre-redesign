@@ -376,3 +376,7 @@ footer {
 .arrow.right {
   right: 20px;
 }
+
+.gallery-grid {
+  margin-bottom: 40px;
+}
