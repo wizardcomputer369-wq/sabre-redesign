@@ -86,14 +86,19 @@ nav a:hover {
   content: "";
   position: absolute;
   inset: 0;
+
   background:
-    linear-gradient(rgba(10, 26, 47, 0.65), rgba(10, 26, 47, 0.65)),
-    url("https://images.unsplash.com/photo-1509395176047-4a66953fd231");
+    linear-gradient(rgba(10, 26, 47, 0.45), rgba(10, 26, 47, 0.45)),
+    url("https://images.unsplash.com/photo-1584270354949-1f2a5f8c2f5c?auto=format&fit=crop&w=2000&q=80");
+
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+
   animation: zoomBg 20s ease-in-out infinite alternate;
   z-index: 0;
 }
+
 
 @keyframes zoomBg {
   from { transform: scale(1); }
