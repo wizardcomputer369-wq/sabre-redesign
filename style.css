@@ -308,7 +308,7 @@ footer {
   }
 
   /* TEXT ALIGN FIXES */
-  #contact .contact-item { text-align: left; }
+  #contact .contact-item { text-align: right; }
   #services .card { text-align: left; }
   #about p { text-align: left; }
 }
