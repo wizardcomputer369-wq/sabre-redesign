@@ -133,6 +133,20 @@ body {
   padding: 20px;
   text-align: left;
 }
+.card-link {
+  color: #000 !important;
+  text-decoration: none !important;
+  display: block;
+}
+
+.card-link h3,
+.card-link p {
+  color: #000 !important;
+}
+
+.card-link:hover {
+  opacity: 0.9;
+}
 
 /* ABOUT */
 #about {
