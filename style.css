@@ -198,3 +198,10 @@ footer {
     padding: 18px;
   }
 }
+.logo-text {
+  color: #000;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-left: 8px;
+  white-space: nowrap;
+}
