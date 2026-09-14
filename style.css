@@ -273,6 +273,7 @@ footer {
   gap: 15px;
   margin-top: 20px;
 }
+
 @media (max-width: 768px) {
 
   /* MOBILE NAVIGATION */
@@ -283,9 +284,7 @@ footer {
     align-items: center;
     padding: 12px 15px;
   }
- .gallery-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
+
   .nav-links ul {
     display: flex;
     flex-direction: row;
