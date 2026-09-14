@@ -232,6 +232,20 @@ footer {
 /* MOBILE FIXES */
 @media (max-width: 768px) {
 
+    /* FIX CONTACT ITEMS */
+  #contact .contact-item {
+    text-align: left;
+  }
+
+  /* FIX SERVICES CARDS */
+  #services .card {
+    text-align: left;
+  }
+
+  /* FIX ABOUT PARAGRAPH */
+  #about p {
+    text-align: left;
+  }
   /* NAVIGATION */
   .navbar {
     flex-direction: column;
