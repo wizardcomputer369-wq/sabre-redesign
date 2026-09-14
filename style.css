@@ -29,15 +29,23 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-
+.logo {
+  display: flex;
+  align-items: center;
+}
 .logo img {
   height: 50px; /* Your blue SABRE logo stays untouched */
+    width: auto;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .logo span {
   color: #fff;
   font-weight: 600;
+  font-size: 1.1rem;
   margin-left: 10px;
+  vertical-align: middle;
 }
 
 nav a {
