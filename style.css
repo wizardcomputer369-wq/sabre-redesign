@@ -65,7 +65,7 @@ nav a:hover {
   height: 70vh; /* responsive height */
   background:
     linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
-    url('background.jpg') center/cover no-repeat;
+    url('street.jpeg') center/cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
