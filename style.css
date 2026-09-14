@@ -14,7 +14,7 @@ body {
 /* NAVIGATION */
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;   /* CENTER THE NAV */
   align-items: center;
   padding: 12px 20px;
 }
