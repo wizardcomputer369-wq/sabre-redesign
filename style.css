@@ -182,10 +182,16 @@ footer {
   font-size: 1rem;
   line-height: 1.5;
 }
-@media (max-width: 768px) {
-  #contact {
-    padding: 40px 20px;
+
+  @media (max-width: 768px) {
+  .hero {
+    height: auto;                 /* allow hero to grow */
+    min-height: 90vh;             /* ensures full image */
+    background-size: cover;       /* fill entire area */
+    background-position: center;  /* keep image centered */
+    padding: 60px 20px;           /* keeps text centered */
   }
+}
 
   .contact-item {
     font-size: 1rem;
