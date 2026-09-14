@@ -17,22 +17,14 @@ img {
   margin: auto;
 }
 
-.section {
-  padding: 60px 0;
-}
-
-.section-alt {
-  background: #fff;
-}
-
 /* HEADER */
-.header {
+header {
   background: #000; /* Black header */
   padding: 15px 0;
   box-shadow: 0 2px 8px rgba(0,0,0,0.25);
 }
 
-.header-inner {
+.header-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -42,14 +34,20 @@ img {
   height: 50px; /* Your blue SABRE logo stays untouched */
 }
 
-.nav a {
+.logo span {
+  color: #fff;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+nav a {
   margin-left: 20px;
   text-decoration: none;
   color: #fff; /* White nav links */
   font-weight: 500;
 }
 
-.nav a:hover {
+nav a:hover {
   border-bottom: 2px solid #0072ce; /* Blue hover underline */
 }
 
@@ -64,14 +62,21 @@ img {
   align-items: center;
   text-align: center;
   color: #fff;
+  padding: 0 20px;
 }
 
-.hero h1 {
+.hero-content h2 {
   font-size: 3rem;
   margin-bottom: 10px;
 }
 
-.btn {
+.hero-content p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+.hero-btn {
   background: #f7c948; /* Yellow CTA */
   color: #fff;
   padding: 14px 28px;
@@ -82,14 +87,23 @@ img {
   margin-top: 20px;
 }
 
-/* GRID */
-.grid {
+/* SERVICES */
+#services {
+  background: #fff;
+  padding: 60px 0;
+}
+
+#services h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 30px;
 }
 
-/* SERVICE CARDS */
 .card {
   background: #fff;
   padding: 25px;
@@ -98,21 +112,12 @@ img {
   border-left: 4px solid #0072ce; /* Blue accent */
 }
 
-/* SHOWCASE */
-.showcase-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 30px;
-}
-
-.showcase-item p {
-  text-align: center;
-  color: #0072ce;
-  font-weight: 600;
-  margin-top: 10px;
-}
-
 /* ABOUT */
+.about {
+  background: #fff;
+  padding: 60px 0;
+}
+
 .about-inner {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -120,7 +125,7 @@ img {
   align-items: center;
 }
 
-.about-inner img {
+.about-left img {
   max-width: 200px;
 }
 
@@ -135,12 +140,6 @@ img {
   padding: 60px 0;
 }
 
-.contact-inner {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 40px;
-}
-
 .contact-box {
   background: #fff;
   padding: 25px;
@@ -148,23 +147,9 @@ img {
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
-.contact-form input,
-.contact-form textarea {
-  width: 100%;
-  padding: 10px;
-  margin-top: 5px;
-  border-radius: 6px;
-  border: 1px solid #ccc;
-}
-
-.contact-form button {
-  margin-top: 15px;
-  width: 100%;
-}
-
 /* FOOTER */
-.footer {
-  background: #000; /* Black footer */
+footer {
+  background: #000;
   color: #ccc;
   padding: 20px 0;
   text-align: center;
