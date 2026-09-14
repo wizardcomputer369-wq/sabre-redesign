@@ -1,3 +1,4 @@
+/* GLOBAL */
 body {
   margin: 0;
   font-family: 'Segoe UI', Arial, sans-serif;
@@ -10,7 +11,7 @@ body {
   padding: 0 20px;
 }
 
-/* Navigation */
+/* NAVIGATION */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -24,16 +25,12 @@ body {
   display: block;
 }
 
-.navbar .logo {
-  font-size: 1.6rem;
-  font-weight: 700;
-  color: #c00;
-}
-
-/* Navigation links */
 .nav-links ul {
   display: flex;
   gap: 32px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-links a {
@@ -50,7 +47,7 @@ body {
   font-size: 0.95rem;
 }
 
-/* Hero */
+/* HERO */
 .hero {
   height: 70vh;
   background:
@@ -64,9 +61,24 @@ body {
   padding: 0 20px;
 }
 
-.hero h1 {
-  font-size: 2.2rem;
-  margin-bottom: 10px;
+.hero-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 20px;
+}
+
+.sabre-white {
+  filter: brightness(0) invert(1);
+  height: 120px;
+}
+
+.hero-title-text {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fff;
+  white-space: nowrap;
 }
 
 .hero p {
@@ -83,16 +95,7 @@ body {
   font-weight: 600;
 }
 
-.company-name {
-  color: #fff;
-  font-size: 1.2rem;
-  font-weight: 600;
-  margin-bottom: 10px;
-  letter-spacing: 0.5px;
-  opacity: 0.9;
-}
-
-/* Services */
+/* SERVICES */
 #services {
   background: #f8f9fa;
   padding: 60px 20px;
@@ -113,4 +116,162 @@ body {
 .card {
   background: #fff;
   border-left: 4px solid #007bff;
-  box-shadow
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  text-align: left;
+}
+
+/* ABOUT */
+#about {
+  background: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+/* CONTACT */
+#contact {
+  background: #f8f9fa;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  max-width: 800px;
+  margin: 0 auto;
+  justify-items: center;
+}
+
+.contact-item {
+  background: #fff;
+  padding: 20px;
+  border-left: 4px solid #007bff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* GALLERY */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.gallery-grid img.thumb {
+  width: 100%;
+  height: auto;
+  max-width: 160px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.gallery-grid img.thumb:hover {
+  transform: scale(1.05);
+}
+
+/* LIGHTBOX */
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.85);
+  justify-content: center;
+  align-items: center;
+}
+
+.lightbox-img {
+  max-width: 90%;
+  max-height: 80%;
+  border-radius: 10px;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 40px;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  background: #002b5c;
+  color: #fff;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.footer-links a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* MOBILE FIXES */
+@media (max-width: 768px) {
+
+  /* NAVIGATION */
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 10px;
+  }
+
+  .nav-links ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* HERO */
+  .hero {
+    height: auto;
+    min-height: 90vh;
+    padding: 60px 20px;
+  }
+
+  .sabre-white {
+    height: 80px;
+  }
+
+  .hero-title-text {
+    font-size: 1.4rem;
+  }
+
+  /* SERVICES */
+  .service-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* CONTACT */
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* GALLERY */
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
