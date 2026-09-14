@@ -16,7 +16,10 @@ body {
   top: 0;
   z-index: 1000;
 }
-
+.logo img {
+  height: 45px;
+  width: auto;
+}
 .navbar .logo {
   font-size: 1.6rem;
   font-weight: 700;
@@ -126,4 +129,12 @@ footer {
   margin: 0 10px;
   text-decoration: none;
   font-weight: 500;
+}@media (max-width: 768px) {
+  .hero {
+    height: auto;
+    padding: 100px 20px;
+    background-size: contain;
+    background-position: top;
+      background-attachment: scroll;
+  }
 }
