@@ -48,6 +48,7 @@ ht: 120px; /* adjust size */
   font-size: 0.95rem;
 }
 
+
 /* Hero */
 .hero {
   height: 70vh;
@@ -193,10 +194,7 @@ footer {
   }
 }
 
-  .contact-item {
-    font-size: 1rem;
-    padding: 18px;
-  }
+
 }
 .logo-text {
   color: #000;
@@ -277,6 +275,7 @@ footer {
 
 .gallery-grid img.thumb:hover {
   transform: scale(1.05);
+  
 }
 
 /* Lightbox popup */
