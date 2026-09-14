@@ -142,14 +142,8 @@ footer {
   margin: 0 10px;
   text-decoration: none;
   font-weight: 500;
-}@media (max-width: 768px) {
-  .hero {
-    height: auto;
-    padding: 100px 20px;
-    background-size: contain;
-    background-position: top;
-      background-attachment: scroll;
-  }
+}
+
 }
 /* CONTACT SECTION */
 #contact {
@@ -255,11 +249,7 @@ footer {
   font-size: 0.9rem;
   opacity: 0.8;
 }
-@media (max-width: 768px) {
-  .hero {
-    height: 50vh;
-  }
-}
+
 
 /* Thumbnail grid */
 .gallery-grid {
@@ -309,4 +299,21 @@ footer {
   color: #fff;
   cursor: pointer;
 }
+.hero-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
 
+.hero-title-logo {
+  height: 120px;      /* adjust size if needed */
+}
+
+.hero-title-text {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #000;
+  white-space: nowrap;
+}
