@@ -62,14 +62,17 @@ nav a:hover {
 /* HERO */
 .hero {
   position: relative;
-  min-height: 480px; /* minimum height */
+  height: 70vh; /* responsive height */
   background:
     linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
     url('background.jpg') center/cover no-repeat;
-  padding: 80px 20px; /* more breathing room */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   color: #fff;
-}}
+  padding: 0 20px;
+}
 
 .hero-content h2 {
   font-size: 3rem;
