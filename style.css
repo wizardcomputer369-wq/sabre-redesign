@@ -270,7 +270,8 @@ footer {
 
 @media (max-width: 768px) {
 
-  /* MOBILE NAVIGATION FIX */
+/* MOBILE NAVIGATION */
+@media (max-width: 768px) {
   .navbar {
     display: flex;
     flex-direction: row;
@@ -283,9 +284,8 @@ footer {
     display: flex;
     flex-direction: row;
     gap: 15px;
-    padding: 0;
-    margin: 0;
   }
+}
 
   .nav-links a {
     font-size: 1rem;
@@ -317,18 +317,7 @@ footer {
   #about p {
     text-align: left;
   }
-  /* NAVIGATION */
-  .navbar {
-    flex-direction: column;
-    align-items: center;
-    gap: 12px;
-    padding: 16px 10px;
-  }
 
-  .nav-links ul {
-    flex-direction: column;
-    gap: 10px;
-  }
 
   /* HERO */
   .hero {
