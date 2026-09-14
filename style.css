@@ -12,10 +12,8 @@ body {
 .navbar {
   display: flex;
   justify-content: space-between;
-  align-items: center;   /* keeps logo + nav aligned */
+  align-items: center;
   padding: 12px 20px;
-  max-width: 1200px;
-  margin: 0 auto;
 }
 .logo img {
   height: 28px;
@@ -204,4 +202,9 @@ footer {
   font-weight: 600;
   margin-left: 8px;
   white-space: nowrap;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
