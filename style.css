@@ -60,6 +60,19 @@ body {
   color: #fff;
   padding: 0 20px;
 }
+.sport-hero {
+  height: 70vh;
+  background:
+    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+    url('after.jpg') center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 0 20px;
+}
+
 
 .hero-title {
   display: flex;
