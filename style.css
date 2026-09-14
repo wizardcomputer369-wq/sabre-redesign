@@ -327,3 +327,33 @@ footer {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+@media (max-width: 768px) {
+
+  /* Keep navigation centered */
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* FIX SERVICES CARDS */
+  #services .card {
+    text-align: left;
+  }
+
+  /* FIX CONTACT ITEMS */
+  #contact .contact-item {
+    text-align: left;
+  }
+
+  /* FIX ABOUT TEXT */
+  #about p {
+    text-align: left;
+  }
+
+  /* FIX HEADINGS (optional) */
+  #services h2,
+  #contact h2,
+  #about h2 {
+    text-align: left;
+  }
+}
