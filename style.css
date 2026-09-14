@@ -213,3 +213,45 @@ footer {
   color: inherit;
   display: block;
 }
+.footer {
+  background: #f5f5f5;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-logo img {
+  height: 40px;
+  opacity: 0.9;
+}
+
+.footer-text {
+  font-weight: 600;
+  color: #000;
+}
+
+.footer-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.footer-copy {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
