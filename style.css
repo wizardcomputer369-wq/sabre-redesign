@@ -147,3 +147,33 @@ footer {
       background-attachment: scroll;
   }
 }
+/* CONTACT SECTION */
+#contact {
+  background: #f8f9fa;
+  padding: 60px 20px;
+  text-align: center;
+  border-top: 3px solid #007bff;
+}
+
+#contact h2 {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-item {
+  background: #fff;
+  padding: 20px;
+  border-left: 4px solid #007bff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1.5;
+}
