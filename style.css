@@ -208,3 +208,8 @@ footer {
   align-items: center;
   gap: 8px;
 }
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
