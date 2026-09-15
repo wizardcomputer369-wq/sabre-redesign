@@ -340,38 +340,47 @@ footer {
 
 .gallery-grid {
   margin-bottom: 40px;
+}
+/* Small tile hero */
+.hero.hero--tile {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 30px 25px;
+  margin: 40px auto 20px;
+  max-width: 900px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  text-align: left;
+}
 
-/* Hi-Mast Gradient Tile */
+.hero.hero--tile .hero-content h1 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #1e4f82;
+}
+
+.hero.hero--tile .hero-content p {
+  font-size: 1rem;
+  color: #333;
+}
+/* Hi-Mast small tile */
 .himast-tile {
-  background: linear-gradient(135deg, #1e4f82, #4a7bbf);
+  background: #1e4f82;        /* Sabre blue */
   color: white;
   padding: 25px 30px;
-  border-radius: 14px;
-  max-width: 700px;
-  margin: 40px auto;
-  text-align: center;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  border-radius: 10px;
+  max-width: 900px;
+  margin: 40px auto 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  text-align: left;
 }
 
 .himast-tile h1 {
-  font-size: 1.7rem;
-  margin-bottom: 10px;
+  font-size: 1.6rem;
+  margin-bottom: 8px;
   font-weight: 600;
 }
 
 .himast-tile p {
   font-size: 1rem;
   opacity: 0.95;
-}
-html, body {
-  height: 100%;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-}
-
-footer {
-  margin-top: auto;
 }
