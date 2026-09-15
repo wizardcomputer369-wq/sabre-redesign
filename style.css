@@ -207,7 +207,8 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   gap: 15px;
-  margin-top: 20px;
+  margin-top: 40px;
+  margin-bottom: 60px;
 }
 
 .gallery-grid img.thumb {
@@ -266,12 +267,6 @@ footer {
   margin: 0 10px;
   text-decoration: none;
   font-weight: 500;
-}
-.gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  gap: 15px;
-  margin-top: 20px;
 }
 
 @media (max-width: 768px) {
@@ -364,12 +359,12 @@ footer {
 }
 /* Hi-Mast small tile */
 .himast-tile {
-  padding: 60px 20px;
-  text-align: center;
+   background: #f0f7ff;
+  padding: 50px 30px;
   border-radius: 12px;
   max-width: 900px;
-  margin: 40px auto;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  margin: 40px auto 30px;
+ box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   text-align: center;
 }
 
