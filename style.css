@@ -357,7 +357,7 @@ footer {
 }
 /* Hi-Mast small tile */
 .himast-tile {
-   background: #eef3f8;
+   background: #f7f7f7;
   padding: 50px 30px;
   border-radius: 12px;
   max-width: 900px;
@@ -396,5 +396,5 @@ body.himast-page .gallery-grid {
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 15px;
   margin-top: 20px;
-  margin-bottom: 120px;
+  margin-bottom: 180px;
 }
