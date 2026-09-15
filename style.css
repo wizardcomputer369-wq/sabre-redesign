@@ -389,3 +389,11 @@ body.himast-page {
 footer {
   margin-top: auto;
 }
+
+body.himast-page .gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
