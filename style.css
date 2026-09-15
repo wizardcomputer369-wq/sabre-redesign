@@ -398,3 +398,25 @@ body.himast-page .gallery-grid {
   margin-top: 20px;
   margin-bottom: 180px;
 }
+footer {
+  width: 100%;
+  background: #002b5c;
+  padding: 30px 0;
+  color: #ffffff;
+}
+
+footer .footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+footer .footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer p {
+  text-align: center;
+  margin-top: 10px;
+}
