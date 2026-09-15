@@ -382,8 +382,8 @@ body.himast-page {
   min-height: 100vh;
 }
 
-footer {
-  margin-top: auto;
+body.himast-page footer {
+  margin-top: 40px; /* natural spacing */
 }
 
 body.himast-page .gallery-grid {
