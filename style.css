@@ -16,6 +16,7 @@ body {
   display: flex;
   justify-content: center;   /* CENTER THE NAV */
   align-items: center;
+    margin-bottom: 20px;
   padding: 12px 20px;
 }
 
@@ -339,16 +340,17 @@ footer {
 }
 
 .gallery-grid {
-  margin-bottom: 40px;
+    margin-top: 40px;
+  margin-bottom: 60px;
 
-/* Hi-Mast Gradient Tile */
+/* FIX HI-MAST TILE POSITION */
 .himast-tile {
   background: linear-gradient(135deg, #1e4f82, #4a7bbf);
   color: white;
   padding: 25px 30px;
   border-radius: 14px;
   max-width: 700px;
-  margin: 40px auto;
+  margin: 60px auto 40px;   /* CENTER IT */
   text-align: center;
   box-shadow: 0 8px 25px rgba(0,0,0,0.15);
 }
@@ -372,9 +374,7 @@ body {
   flex-direction: column;
 }
 
-footer {
-  margin-top: auto;
-}
+
   .intro {
   background: #1e4f82;
   color: white;
@@ -394,4 +394,19 @@ footer {
 .intro p {
   font-size: 1.1rem;
   margin-bottom: 20px;
+}
+
+  /* FIX FOOTER */
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;   /* REQUIRED */
+}
+
+footer {
+  margin-top: auto;
 }
