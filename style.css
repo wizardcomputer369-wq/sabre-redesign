@@ -420,4 +420,18 @@ body.sport-page .himast-tile {
 body.himast-page .container {
   max-width: 900px;
 }
+body.duct-page .container {
+  max-width: 900px;
+}
 
+body.duct-page .gallery-grid {
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+  margin-bottom: 180px;
+}
+
+body.duct-page .himast-tile {
+  max-width: 900px;
+  margin: 40px auto 30px;
+}
