@@ -140,7 +140,7 @@ body {
 
 .card {
   background: #fff;
-  border-left: 4px solid #4a5a70;
+  border-left: 4px solid #002b5c;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   padding: 20px;
   text-align: left;
@@ -196,7 +196,7 @@ body {
 .contact-item {
   background: #fff;
   padding: 20px;
-  border-left: 4px solid #4a5a70;
+  border-left: 4px solid #002b5c;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   text-align: left;
   font-size: 1rem;
