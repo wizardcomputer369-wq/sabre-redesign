@@ -388,7 +388,7 @@ body.himast-page {
 }
 
 body.himast-page footer {
-  margin-top: 40px; /* natural spacing */
+  margin-top: 20px; /* natural spacing */
 }
 
 body.himast-page .gallery-grid {
@@ -396,5 +396,5 @@ body.himast-page .gallery-grid {
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 15px;
   margin-top: 20px;
-  margin-bottom: 60px;
+  margin-bottom: 120px;
 }
