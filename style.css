@@ -22,6 +22,7 @@ body {
 .logo img {
   height: 28px;
   width: auto;
+  
   display: block;
 }
 
@@ -411,6 +412,10 @@ body.sport-page .gallery-grid {
   gap: 15px;
   margin-top: 20px;
   margin-bottom: 180px;
+}
+body.himast-page .gallery-grid img.thumb {
+  width: 220px;
+  height: 160px;
 }
 body.sport-page .himast-tile {
   max-width: 900px;
