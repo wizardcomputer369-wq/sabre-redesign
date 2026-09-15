@@ -367,6 +367,7 @@ body {
 }
 body.himast-page {
   min-height: 100vh;
+   max-width: 900px;
     display: flex;
   flex-direction: column;
 }
@@ -378,13 +379,7 @@ body.himast-page footer {
   margin-top: 20px; /* natural spacing */
 }
 
-body.himast-page .gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  gap: 15px;
-  margin-top: 20px;
-  margin-bottom: 180px;
-}
+
 footer {
   width: 100%;
   background: #002b5c;
