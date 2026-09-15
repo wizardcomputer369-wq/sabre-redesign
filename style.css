@@ -362,3 +362,25 @@ footer {
   font-size: 1rem;
   color: #333;
 }
+/* Hi-Mast small tile */
+.himast-tile {
+  background: #1e4f82;        /* Sabre blue */
+  color: white;
+  padding: 25px 30px;
+  border-radius: 10px;
+  max-width: 900px;
+  margin: 40px auto 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  text-align: left;
+}
+
+.himast-tile h1 {
+  font-size: 1.6rem;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.himast-tile p {
+  font-size: 1rem;
+  opacity: 0.95;
+}
