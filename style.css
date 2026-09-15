@@ -380,6 +380,11 @@ footer {
 }
 body.himast-page {
   min-height: 100vh;
+    display: flex;
+  flex-direction: column;
+}
+.page-content {
+  flex: 1; /* pushes footer down */
 }
 
 body.himast-page footer {
