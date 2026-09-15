@@ -254,20 +254,7 @@ body {
   cursor: pointer;
 }
 
-/* FOOTER */
-footer {
-  background: #004080;
-  color: #fff;
-  text-align: center;
-  padding: 30px 20px;
-}
 
-.footer-links a {
-  color: #fff;
-  margin: 0 10px;
-  text-decoration: none;
-  font-weight: 500;
-}
 
 @media (max-width: 768px) {
 
