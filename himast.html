@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hi-Mast Lighting | Sabre Electrical</title>
+  <title>Sports Lighting | Sabre Electrical Services Ltd</title>
 
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
@@ -11,22 +11,19 @@
 
 <body>
 
-<header>
-  <div class="container header-content">
-    <div class="logo">
-      <img src="sabre.png" alt="Sabre Logo">
-      <span>Sabre Electrical Services Ltd</span>
-    </div>
+<header class="navbar">
 
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="index.html#services">Services</a>
-      <a href="index.html#contact">Contact</a>
-    </nav>
-  </div>
+
+  <nav class="nav-links">
+    <ul>
+      <li><a href="index.html#top">Home</a></li>
+      <li><a href="index.html#services">Services</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </nav>
 </header>
-
-<!-- SMALL TILE INSTEAD OF FULL HERO -->
+  
+<!-- SMALL TILE -->
 <section class="hero hero--tile">
   <div class="hero-content">
     <h1>Hi-Mast Lighting</h1>
@@ -37,23 +34,32 @@
 <section class="container">
   <h2>Project Gallery</h2>
 
-  <!-- THUMBNAIL GRID (default layout) -->
+  <!-- GALLERY GRID (required for gallery.js) -->
   <div class="gallery-grid">
     <img class="thumb" src="airport.jpeg" alt="Airport Hi-Mast">
-    <img class="thumb" src="all_lights.jpeg" alt="Lighting Overview">
+    <img class="thumb" src="all_lights.jpeg.jpeg" alt="Lighting Overview">
     <img class="thumb" src="bridge.jpeg" alt="Bridge Lighting">
     <img class="thumb" src="street2.jpeg" alt="Street Lighting">
     <img class="thumb" src="street3.jpeg" alt="Urban Lighting">
     <img class="thumb" src="lights.jpeg" alt="Hi-Mast Maintenance">
   </div>
-
 </section>
+
+<!-- LIGHTBOX (required for gallery.js) -->
+<div id="lightbox" class="lightbox">
+  <span class="close">&times;</span>
+  <span class="arrow left">&#10094;</span>
+  <img id="lightbox-img" class="lightbox-img">
+  <span class="arrow right">&#10095;</span>
+</div>
 
 <footer>
   <p>© 2026 Sabre Electrical Services Ltd</p>
 </footer>
 
-<script src="script.js"></script>
+<script src="gallery.js"></script>
 
 </body>
 </html>
+
+
