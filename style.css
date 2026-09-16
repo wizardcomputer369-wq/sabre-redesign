@@ -402,4 +402,7 @@ body.himast-page .gallery-grid img.thumb {
 body.himast-page .container {
   max-width: 900px;
 }
-
+body.himast-page .himast-tile {
+  max-width: 900px;
+  margin: 40px auto 30px;
+}
