@@ -61,31 +61,6 @@ body {
   color: #fff;
   padding: 0 20px;
 }
-.sport-hero {
-  height: 70vh;
-  background:
-    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
-    url('after.jpg') center/cover no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: #fff;
-  padding: 0 20px;
-}
-.himast-hero {
-  height: 70vh;
-  background:
-    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
-    url('ally.jpg') center/cover no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: #fff;
-  padding: 0 20px;
-}
-
 
 .hero-title {
   display: flex;
@@ -322,63 +297,6 @@ body {
 }
 
 
-/* Small tile hero */
-.hero.hero--tile {
-  background: #ffffff;
-  border-radius: 12px;
-  padding: 30px 25px;
-  margin: 40px auto 20px;
-  max-width: 900px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-  text-align: left;
-}
-
-.hero.hero--tile .hero-content h1 {
-  font-size: 1.8rem;
-  margin-bottom: 10px;
-  color: #1e4f82;
-}
-
-.hero.hero--tile .hero-content p {
-  font-size: 1rem;
-  color: #333;
-}
-/* Hi-Mast small tile */
-.himast-tile {
-   background: #ffffff;
-  padding: 50px 30px;
-  border-radius: 12px;
-  max-width: 900px;
-  margin: 40px auto 30px;
- box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  text-align: center;
-}
-
-.himast-tile h1 {
-  font-size: 2rem;
-  margin-bottom: 10px;
-  color: #002b5c;
-}
-
-.himast-tile p {
-  font-size: 1.1rem;
-  color: #1a3a60;
-  max-width: 700px;
-  margin: 0 auto;
-}
-body.himast-page {
-  min-height: 100vh;
-    display: flex;
-  flex-direction: column;
-}
-.page-content {
-  flex: 1; /* pushes footer down */
-}
-
-body.himast-page footer {
-  margin-top: 20px; /* natural spacing */
-}
-
 
 footer {
   width: 100%;
@@ -413,17 +331,11 @@ body.sport-page .gallery-grid {
   margin-top: 20px;
   margin-bottom: 180px;
 }
-body.himast-page .gallery-grid img.thumb {
-  width: 220px;
-  height: 160px;
-}
 body.sport-page .himast-tile {
   max-width: 900px;
   margin: 40px auto 30px;
 }
-body.himast-page .container {
-  max-width: 900px;
-}
+
 body.duct-page .container {
   max-width: 900px;
 }
@@ -453,5 +365,45 @@ body.consultancy-page .gallery-grid {
 body.consultancy-page .himast-tile {
   max-width: 900px;
   margin: 40px auto 30px;
+}
+
+/* Hi-Mast small tile */
+.himast-tile {
+   background: #ffffff;
+  padding: 50px 30px;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 40px auto 30px;
+ box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.himast-tile h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #002b5c;
+}
+
+.himast-tile p {
+  font-size: 1.1rem;
+  color: #1a3a60;
+  max-width: 700px;
+  margin: 0 auto;
+}
+body.himast-page {
+  min-height: 100vh;
+    display: flex;
+  flex-direction: column;
+}
+.page-content {
+  flex: 1; /* pushes footer down */
+}
+
+body.himast-page .gallery-grid img.thumb {
+  width: 220px;
+  height: 160px;
+}
+body.himast-page .container {
+  max-width: 900px;
 }
 
