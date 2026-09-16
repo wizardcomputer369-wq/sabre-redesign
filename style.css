@@ -395,18 +395,16 @@ body.consultancy-page .himast-tile {
   flex: 1; /* pushes footer down */
 }
 
-body.himast-page .gallery-grid img.thumb {
-  width: 220px;
-  height: 160px;
-}
 body.himast-page .container {
   max-width: 900px;
 }
+
 body.himast-page .himast-tile {
   max-width: 900px;
   margin: 40px auto 30px;
 }
-body.himast-page .gallery-grid {
+
+body.himast-page .gallery-grid img.thumb {
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 15px;
   margin-top: 20px;
