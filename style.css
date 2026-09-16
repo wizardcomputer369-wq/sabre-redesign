@@ -50,7 +50,8 @@ body {
 
 /* HERO */
 .hero {
-  height: 70vh;
+  min-height: 70vh;
+   height: auto;
   background:
     linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
     url('background.jpg') center/cover no-repeat;
