@@ -390,13 +390,7 @@ body.consultancy-page .himast-tile {
   max-width: 700px;
   margin: 0 auto;
 }
-body.himast-page {
-  min-height: 100vh;
-   width: 100%;
-    display: flex;
-  flex-direction: column;
-    flex: 1 0 auto; 
-}
+
 .page-content {
   flex: 1; /* pushes footer down */
 }
