@@ -412,4 +412,15 @@ body.himast-page .gallery-grid img.thumb {
   width: 160px;
   height: 120px;
 }
+html, body {
+  height: 100%;
+}
 
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
