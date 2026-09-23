@@ -13,14 +13,13 @@ body {
 
 /* NAVIGATION */
 .navbar {
-  display: flex;
-  justify-content: center;   /* CENTER THE NAV */
-  align-items: center;
-  padding: 18px 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
 
 .logo img {
-height: 40px; /* was 28px */
+height: 45px; /* was 28px */
 width: auto;
 display: block;
 margin-right: 30px;
