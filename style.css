@@ -20,10 +20,10 @@ body {
 }
 
 .logo img {
-  height: 28px;
-  width: auto;
-  
-  display: block;
+height: 40px; /* was 28px */
+width: auto;
+display: block;
+margin-right: 30px;
 }
 
 .nav-links ul {
